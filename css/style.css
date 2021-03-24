@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-theme {
+    background-color: #00b0ff;
+    color: #ffffff !important;
+}
+
+.btn-theme-nav {
+    background-color: #00b0ff;
+    color: #ffffff !important;
+    border: 2px solid #00b0ff;
+}
+
+.btn-stroke-theme {
+    background-color: #ffffff;
+    color: #00b0ff !important;
+    border: 2px solid #00b0ff;
+}
+
+.tema-button:hover {
+    background-color: #0189c9;
+}
+
+.tema-text {
+    color: #00b0ff !important;
+}
+
+.tema-color {
+    background-color: #00b0ff;
+}
+
+.form-theme {
+    background-color: #F6F6F6;
+    height: 45px;
+    border: 0px;
+}
+
+.text-muted {
+    color: #acacac !important;
+}
+
+.border {
+    border: 0px !important;
+}
+
+.lupa-password {
+    text-decoration: none;
+    color: #00b0ff;
+    font-size: 14px;
+}
+
+.card-border {
+    border-radius: 15px !important;
+}
+
+.border-table {
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+}
+
+.border-icon {
+    border-radius: 50% !important;
+    height: 40px;
+    width: 40px;
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    .img-hidden {
+        display: none;
+    }
+}
+
+.text-none {
+    text-decoration: none;
+}
+
+.text-none:hover {
+    text-decoration: none;
+}
+
+.line {
+    height: px;
+    border-color: #00b0ff;
+}
+
+.table-shape {
+    border-radius: 5px !important;
+    border: 1px solid #acacac !important;
+    background-color: #ffffff !important;
+    height: 40px;
+}
+
+.border {
+    border-radius: 5px;
+}

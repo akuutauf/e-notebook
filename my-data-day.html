@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/png" href="img/icon.png">
+        <title>My Data Day | E-NoteBook</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-sm">
+            <div class="container">
+                <a class="navbar-brand" href="landing-page.html">
+                    <img src="img/logo.png" width="150" alt="">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <div class="dropdown">
+                                <a href="#" class="nav-link pr-0 leading-none" data-toggle="dropdown">
+                                    <div class="d-flex">
+                                        <img src="img/iconfinder_girl_avatar_child_kid_4043250.png" width="55" alt="">
+                                        <span class="ml-2 d-none d-lg-block">
+                                            <span><b class="text-dark">Mrs. Koyimah</b></span>
+                                            <small class="text-muted d-block">Ibu rumah tangga</small>
+                                        </span>
+                                    </div>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
+                                    <a class="dropdown-item" href="profile.html">
+                                        <i class="dropdown-icon" data-feather="user"></i> Profil Akun
+                                    </a>
+                                    <a class="dropdown-item" href="my-month-data.html">
+                                        <i class="dropdown-icon" data-feather="check-circle"></i> Data Bulanan
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <i class="dropdown-icon" data-feather="settings"></i> Pengaturan
+                                    </a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="login.html">
+                                        <i class="dropdown-icon" data-feather="log-out"></i> Keluar
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Content -->
+        <div class="container mt-5">
+            <h3><b>Tambah dan Edit Data Harian</b></h3>
+            <div class="mt-4">
+                <a href="#" class="btn btn-theme"><b>Tambahkan Data</b></a>
+                <a href="#" class="btn btn-stroke-theme pl-3 pr-3"><b>Edit Data</b></a>
+                <hr class="line">
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-1 text-center">
+                    <h6><b>No</b></h6>
+                </div>
+                <div class="col-md-3">
+                    <h6><b><label for="namabarang">Nama Barang</label></b></h6>
+                </div>
+                <div class="col-md-2">
+                    <h6><b><label for="kuantitas">Kuantitas</label></b></h6>
+                </div>
+                <div class="col-md-2">
+                    <h6><b><label for="tanggal">Tanggal</label></b></h6>
+                </div>
+                <div class="col-md-2">
+                    <h6><b><label for="hargaunit">Harga/Unit</label></b></h6>
+                </div>
+                <div class="col-md-2">
+                    <h6><b><label for="total">Total</label></b></h6>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-1 text-center">
+                    <h6>1</h6>
+                </div>
+                <div class="col-md-3">
+                    <input type="text" class="form-control" id="namabarang" placeholder="Nama Barang" value="Mie Instan" required>
+                </div>
+                <div class="col-md-2">
+                    <input type="text" class="form-control" id="kuantitas" placeholder="Kuantitas" value="10" required>
+                </div>
+                <div class="col-md-2">
+                    <input type="text" class="form-control" id="tanggal" placeholder="Tanggal" value="09/01/2021" required>
+                </div>
+                <div class="col-md-2">
+                    <input type="text" class="form-control" id="hargaunit" placeholder="Harga/Unit" value="2.500" required>
+                </div>
+                <div class="col-md-2">
+                    <input type="text" class="form-control" id="total" placeholder="Total" value="25.000" required>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-1 text-center">
+                    <h6>2</h6>
+                </div>
+                <div class="col-md-3">
+                    <input type="text" class="form-control" id="namabarang" placeholder="Nama Barang" value="Telur Ayam" required>
+                </div>
+                <div class="col-md-2">
+                    <input type="text" class="form-control" id="kuantitas" placeholder="Kuantitas" value="5" required>
+                </div>
+                <div class="col-md-2">
+                    <input type="text" class="form-control" id="tanggal" placeholder="Tanggal" value="09/01/2021" required>
+                </div>
+                <div class="col-md-2">
+                    <input type="text" class="form-control" id="hargaunit" placeholder="Harga/Unit" value="25.000" required>
+                </div>
+                <div class="col-md-2">
+                    <input type="text" class="form-control" id="total" placeholder="Total" value="100.000" required>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-1 text-center">
+                    <h6>3</h6>
+                </div>
+                <div class="col-md-3">
+                    <input type="text" class="form-control" id="namabarang" placeholder="Nama Barang" value="Kembang Kol" required>
+                </div>
+                <div class="col-md-2">
+                    <input type="text" class="form-control" id="kuantitas" placeholder="Kuantitas" value="3" required>
+                </div>
+                <div class="col-md-2">
+                    <input type="text" class="form-control" id="tanggal" placeholder="Tanggal" value="09/01/2021" required>
+                </div>
+                <div class="col-md-2">
+                    <input type="text" class="form-control" id="hargaunit" placeholder="Harga/Unit" value="16.000" required>
+                </div>
+                <div class="col-md-2">
+                    <input type="text" class="form-control" id="total" placeholder="Total" value="48.000" required>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-1 text-center">
+                    <h6>4</h6>
+                </div>
+                <div class="col-md-3">
+                    <input type="text" class="form-control" id="namabarang" placeholder="Nama Barang" value="Ayam" required>
+                </div>
+                <div class="col-md-2">
+                    <input type="text" class="form-control" id="kuantitas" placeholder="Kuantitas" value="4" required>
+                </div>
+                <div class="col-md-2">
+                    <input type="text" class="form-control" id="tanggal" placeholder="Tanggal" value="09/01/2021" required>
+                </div>
+                <div class="col-md-2">
+                    <input type="text" class="form-control" id="hargaunit" placeholder="Harga/Unit" value="27.000" required>
+                </div>
+                <div class="col-md-2">
+                    <input type="text" class="form-control" id="total" placeholder="Total" value="108.000" required>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-1 text-center">
+                    <button class="btn btn-theme border">
+                        <img src="img/plus.svg" class="pl-1 pr-1" alt="">
+                    </button>
+                </div>
+                <div class="col-md-3">
+                    <input type="text" class="form-control" id="namabarang" placeholder="Nama Barang" required>
+                </div>
+                <div class="col-md-2">
+                    <input type="text" class="form-control" id="kuantitas" placeholder="Kuantitas" required>
+                </div>
+                <div class="col-md-2">
+                    <input type="text" class="form-control" id="tanggal" placeholder="Tanggal" required>
+                </div>
+                <div class="col-md-2">
+                    <input type="text" class="form-control" id="hargaunit" placeholder="Harga/Unit" required>
+                </div>
+                <div class="col-md-2">
+                    <input type="text" class="form-control" id="total" placeholder="Total" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="ml-auto mr-5 pr-5 mt-5">
+                    <a href="success-addingdata.html" class="btn btn-theme p-2 pl-4 pr-4"><b>Save</b></a>
+                    <a href="#" class="btn btn-stroke-theme p-2 pl-4 pr-4 ml-2"><b>Clear</b></a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <div class="container mt-5 pt-4">
+            <div class="row">
+                <div class="col-md-5 mb-3">
+                    <img src="img/logo.png" width="150" alt="">
+                    <p class="text-muted mt-3">
+                        Terimakasih telah memilih kami untuk <br> menemani Anda dalam memanajemen <br> kebutuhan sehari hari
+                    </p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h4 class="">Website</h4>
+                    <a href="#" class="text-muted text-none">About</a> <br>
+                    <a href="#" class="text-muted text-none">Support</a> <br>
+                    <a href="#" class="text-muted text-none">Privacy Policy</a> <br>
+                    <a href="#" class="text-muted text-none">Terms of service</a> <br>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <h4>Contact and Office</h4>
+                    <p class="text-muted">
+                        enotebook@gmail.com <br> Jln. Raya Jember <br> Rt. 001 Rw. 001, Rogojampi <br> Banyuwangi, Jawa Timur
+                    </p>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <div class="container">
+            <div class="row">
+                <div class="mx-auto pt-2 pb-2">
+                    <h6 class="text-center">&copy;
+                       <strong> Copyright <span class="tema-text">E-Note</span> Book 2021. All right reserved</strong>
+                    </h6>
+                </div>
+            </div>
+        </div>
+        
+    <!-- Java Script -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    </body>
+</html>
